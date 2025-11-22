@@ -1,72 +1,83 @@
-# Automação Completa de Documentos da Construção Civil (Python)
+# Automação de Documentos da Construção Civil com Python
 
-Este repositório apresenta o projeto que desenvolvi para automatizar a geração de documentos técnicos usados em processos de obras, como:
+Este repositório apresenta um projeto pessoal que desenvolvi para **automatizar a geração de documentos utilizados em processos de obras**, como:
 
 - alvará de construção  
 - regularização  
 - habite-se  
-- declarações
 - procurações  
 - requerimentos  
+- declarações  
 - relatórios fotográficos  
-- entre outros documentos exigidos por prefeituras  
 
-O objetivo foi eliminar tarefas repetitivas, reduzir erros e aumentar produtividade.
+O objetivo da automação é **eliminar tarefas repetitivas**, **reduzir erros** e **aumentar a produtividade** no fluxo de preparação de documentos técnicos.
 
 ---
 
-## 🎯 Problema
+## 💡 Problema
 
-Os processos de obra exigem muitos documentos com informações semelhantes (dados do cliente, responsável técnico, imóvel, medidas etc.).
+Antes da automação, a geração desses documentos era:
 
-Antes da automação:
+- totalmente manual  
+- repetitiva  
+- sujeita a erros (endereços, RG, nomes, datas, etc.)  
+- demorada (vários documentos exigiam as mesmas informações)  
+- especialmente lenta no caso de relatórios fotográficos  
 
-- Eu precisava preencher **cada documento manualmente**
-- O relatório fotográfico demandava **inserir foto por foto**
-- Era fácil cometer erros de digitação (RG, endereço, numeração)
-- Cada processo consumia horas apenas com burocracia
+Cada cliente ou processo exigia uma nova série de documentos preenchidos um a um.
 
 ---
 
 ## 🚀 Solução Desenvolvida
 
-Desenvolvi uma automação completa usando **Python**, conectada a uma tabela no Google Sheets.
+Criei uma automação usando **Python**, onde:
 
-### **Fluxo da solução**
-1. Preencho uma planilha chamada **"tabela_automacao"** com todas as informações necessárias (cliente, imóvel, obra, responsável técnico).
-2. O script Python:
-   - lê os dados da planilha  
-   - abre os documentos-modelo  
-   - substitui automaticamente os campos  
-   - gera todos os documentos prontos  
-3. Para o relatório fotográfico, o script:
-   - lê a pasta de fotos  
-   - insere todas no documento  
-   - organiza automaticamente em páginas  
+1. Eu preencho uma planilha com todos os dados necessários  
+2. O script lê cada linha da planilha  
+3. Abre automaticamente os templates dos documentos  
+4. Substitui todos os campos (placeholders) pelas informações corretas  
+5. Salva os documentos prontos em uma pasta organizada  
+6. Converte automaticamente para PDF, quando necessário  
+
+Todo o preenchimento é feito em segundos, com texto formatado e documentos finalizados para envio à prefeitura.
 
 ---
 
 ## 🛠 Tecnologias utilizadas
 
-- **Python**
-- `python-docx` para manipular documentos .docx  
-- `pandas` para leitura dos dados  
-- `gspread` ou leitura via CSV/exportação do Google Sheets  
-- `reportlab` (opcional, para PDFs)  
-- Visual Studio Code como ambiente principal  
-- Automação de pastas e arquivos usando `os` e `pathlib`
+- **Python**  
+- `pandas` para leitura da planilha  
+- `python-docx` para manipulação dos arquivos Word  
+- `openpyxl` para integração com Excel  
+- `comtypes` para conversão automática para PDF  
+- VSCode como ambiente de desenvolvimento  
 
 ---
 
-## ✅ Resultados
+## 🎯 Benefícios da Automação
 
-- Redução de horas de trabalho manual para **minutos**
-- Eliminação quase total de erros de escrita
-- Escalabilidade para múltiplos projetos simultâneos
-- Processo padronizado e muito mais profissional
-- Permite focar no projeto arquitetônico em si
+- Redução drástica do tempo gasto com tarefas manuais  
+- Eliminação quase total de erros de digitação  
+- Padronização dos documentos  
+- Rapidez para gerar múltiplos arquivos simultaneamente  
+- Aumento de produtividade permitindo foco no projeto técnico, não na burocracia  
 
 ---
 
-## 📁 Estrutura do Repositório
+## 📂 Sobre este repositório
 
+Este repositório contém:
+
+- **descrição completa do projeto**  
+- **explicação da lógica e funcionamento**  
+
+Os arquivos reais utilizados (templates, documentos oficiais e planilhas internas) **não foram incluídos para preservar informações sensíveis e padrões reais de clientes**.
+
+Se necessário, posso **demonstrar o funcionamento completo em uma entrevista**, com os arquivos reais e exemplos de uso.
+
+---
+
+## 📬 Contato
+
+- LinkedIn: https://www.linkedin.com/in/amanda-lustosa-vital  
+- E-mail: amandalusvital@gmail.com  
