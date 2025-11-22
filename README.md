@@ -14,7 +14,7 @@ O objetivo da automação é **eliminar tarefas repetitivas**, **reduzir erros**
 
 ---
 
-## 💡 Problema
+##  Problema
 
 Antes da automação, a geração desses documentos era:
 
@@ -28,7 +28,7 @@ Cada cliente ou processo exigia uma nova série de documentos preenchidos um a u
 
 ---
 
-## 🚀 Solução Desenvolvida
+##  Solução Desenvolvida
 
 Criei uma automação usando **Python**, onde:
 
@@ -43,7 +43,7 @@ Todo o preenchimento é feito em segundos, com texto formatado e documentos fina
 
 ---
 
-## 🛠 Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 - **Python**  
 - `pandas` para leitura da planilha  
@@ -54,7 +54,7 @@ Todo o preenchimento é feito em segundos, com texto formatado e documentos fina
 
 ---
 
-## 🎯 Benefícios da Automação
+##  Benefícios da Automação
 
 - Redução drástica do tempo gasto com tarefas manuais  
 - Eliminação quase total de erros de digitação  
@@ -64,7 +64,7 @@ Todo o preenchimento é feito em segundos, com texto formatado e documentos fina
 
 ---
 
-## 📂 Sobre este repositório
+##  Sobre este repositório
 
 Este repositório contém:
 
@@ -77,7 +77,7 @@ Se necessário, posso **demonstrar o funcionamento completo em uma entrevista**,
 
 ---
 
-## 📬 Contato
+##  Contato
 
 - LinkedIn: https://www.linkedin.com/in/amanda-lustosa-vital  
 - E-mail: amandalusvital@gmail.com  
